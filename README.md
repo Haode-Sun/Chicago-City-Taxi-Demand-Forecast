@@ -14,3 +14,11 @@ I collected hourly weather data from visual crossing for Chicago from October to
 **3.Census and Sociodemographic information**  
 I used the Cenpy library to explore and query the US Census API and return Pandas Dataframes. I obtained median income, race (calculated as the proportion of the population that is white), age, and calculated average commuting time and public transport preferences as predictor variables.  
 
+##
+	MAE	MSE	R2
+Support Vector Machine	11.158	461.274	-0.145
+Random Forest	2.707	95.640	0.763
+Logistic Regression	11.810	536.048	-0.330
+xgboost	0.2852	0.237	0.999
+
+
