@@ -1,7 +1,7 @@
 # Chicago City Taxi Demand Forecast
 
 ## Data Description
-I have chosen three different data sources for this project:
+I have chosen three different data sources for this project:  
 1.Chicago taxi trip records: https://data.cityofchicago.org/Transportation/Taxi-Trips/wrvz-psew  
 The data comes from a dataset the official Chicago Data Portal collects. I chose to go for two months of trip data, and to avoid the impact of specific holidays that might disrupt expected demand on a given weekend or weekday, I chose a study period of two months of data from October 1, 2022, to November 30, 2022, avoiding national holidays (e.g., Christmas).
 2.Weather data: https://www.visualcrossing.com/weather/weather-data-services  
