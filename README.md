@@ -18,7 +18,7 @@ I used the Cenpy library to explore and query the US Census API and return Panda
 - Splitting training and testing  
 This project split two training and testing datasets based on time: one before 20 November 2022 as the training set and the other after 20 November 2022 as the testing set.The feature variables selected for model prediction are time, total population, median income, ethnicity, average commute time, transportation preference, and weather factors, including temperature, precipitation, and wind speed.  
 
-- Check Error Metrics
+- Check Error Metrics  
 I introduce Mean Squared Error (Mean Squared Error) as an indicator to measure, which represents the expected value of the square of the difference between the actual value and the predicted value. Similarly, the smaller the value of MSE, the closer the prediction result of the model is to the true value.  
 ## Conclusion
 | Model                | MAE     | MSE     | R2    |
